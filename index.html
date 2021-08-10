@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+<!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet"> 
+<!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
+<!-- ICON -->
+<link rel="shortcut icon" href="./assets/STICKER_LOGO.ico" type="image/x-icon">
+
+    <title>Picaflor Vinos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav1">
+            <ul>
+                <li><img class="logo" src="./img/LOGO2.png" alt="logo"></li>
+                <li><a class="aboutNAV">about</a></li>
+                <li><a class="productosNAV">products</a></li>
+                <li><a class="contactNAV">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="banner">
+
+        
+            <div class="portada">
+                <img class="portadaImg" src="./img/portada_de_vino.jpg" alt="vino" >
+                <div class="scroll"></div>
+            </div>
+            
+
+            <article id="articulos" class="articulos" >
+
+                <div class="marca" data-aos="fade-down">
+                    <h1><img class="sticker" src="./img/STICKER_LOGO.png" alt="stickerLogo"></h1>
+                </div>
+
+                <div class="about">
+                    <p class="about1" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, omnis? Dolorem, deserunt tempore nisi possimus consectetur dolore numquam maiores modi et velit obcaecati doloremque tempora. Soluta, vel hic voluptate, doloremque, odit cum accusantium recusandae maiores quidem possimus totam earum doloribus at. Similique, esse facilis est iusto delectus amet a iste pariatur, in saepe quis tempora commodi eius distinctio illo atque odio veniam debitis omnis, quos harum deleniti. Alias, velit. Voluptas corporis assumenda harum, maxime illum quam placeat id modi labore maiores at numquam reprehenderit doloremque sequi officia, dicta odio ea quaerat. Repudiandae iure, eius sed autem ea officiis sit ullam.</p>
+                    
+                    <p class="about2" data-aos="fade-down">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure et dolore maxime nisi nam nesciunt similique mollitia aperiam non ex veritatis architecto cumque, quis esse error. Reiciendis, expedita natus mollitia vero cupiditate eaque, aliquid temporibus inventore optio itaque pariatur at amet sed sunt, magnam porro quidem autem molestias quaerat? Temporibus voluptatem officiis, in necessitatibus saepe optio magnam ea. Ut quam nostrum dignissimos dolorem deleniti facilis nam, hic impedit cum voluptate rerum! Veritatis harum minima, distinctio aspernatur praesentium temporibus accusantium rerum totam, quisquam ex possimus earum animi obcaecati ducimus quia illum corporis eius odit velit? Error, tenetur ut repudiandae maiores debitis aliquam consequatur mollitia aut porro neque natus, officia quidem accusamus, perferendis aspernatur maxime tempora alias quo nulla reprehenderit. Ducimus, reiciendis?</p>
+                    
+                </div>       
+            </article>
+
+            <article class="productos" data-aos="fade-down" > 
+                <h1 class="productosText">Nuestros Productos</h1>
+                <hr>
+                
+                <div class="productosImg" data-aos="fade-down">
+                    <img src="./img/productos/vino.png" alt="vino">
+                    <img src="./img/productos/espumante.png" alt="espumante">
+                    <img src="./img/productos/cerveza.png" alt="cerveza">
+                    <img src="./img/productos/lata.png" alt="lata">
+                </div>
+            </article>
+
+            <div class="contacto">
+                <h2>Ponte en contacto con nosotros</h2>
+                <hr>
+                <div class="gridContacto">
+
+                    <div class="locales">
+                        <h3>Nuestros locales</h3>
+                        <ul>
+                            <li>Av. Pueyrredón 609</li>
+                            <li>Av. Rivadavia 2067</li>
+                        </ul>
+                    </div>
+                    <div class="mensajeria">
+                           <form class="form" id="form">
+                            <select name="motivoContacto" id="motivo" required>
+                                <option value="MOTIVO DE CONTACTO">-SELECCIONE MOTIVO-</option>
+                                <option value="consulta">Quiero consultar</option>
+                                <option value="problema">Tengo un problema</option>
+                                <option value="vender">Quiero vender</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                            <input type="text" name="email" id="email" placeholder="e-mail" required>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Numero telefonico" required>
+                            <input type="text" name="localidad" id="localidad" placeholder="Localidad" required>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button type="submit" id="enviarConsulta">Enviar</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    <div class="modal">
+        <img  alt="modal" class="fullImg">
+    </div>
+</div>
+
+
+    
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1000,
+    });
+    </script>
+</body>
+</html>
